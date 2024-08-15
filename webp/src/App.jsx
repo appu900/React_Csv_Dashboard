@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route path="/signin" element={<Signin />} />
+        <Route path="/" element={<Signin />} />
         <Route path="/dashboard" element={<DashboardLayout />}>
           <Route path="upload" element={<Upload />} />
         </Route>
