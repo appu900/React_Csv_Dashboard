@@ -15,7 +15,7 @@ const tabs = [
   {
     name: "Dashboard",
     icon: IoHomeOutline,
-    location: "/",
+    location: "/dashboard",
   },
   {
     name: "Upload",
@@ -25,22 +25,27 @@ const tabs = [
   {
     name: "invoice",
     icon: IoMdAdd,
+    location: "#",
   },
   {
     name: "Schedule",
     icon: RiFireLine,
+    location: "#",
   },
   {
     name: "Calender",
     icon: MdOutlineExplore,
+    location: "#",
   },
   {
     name: "Notification",
     icon: FaHashtag,
+    location: "#",
   },
   {
     name: "Settings",
     icon: CiBookmarkPlus,
+    location: "#",
   },
 ];
 
